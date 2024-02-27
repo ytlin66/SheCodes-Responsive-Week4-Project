@@ -82,3 +82,24 @@ p {
     text-align: center;
   }
 }
+.about-section {
+  padding: 110px 20px;
+  text-align: center;
+}
+.about-section h1 {
+  font-size: 50px;
+}
+
+.about-section h2 {
+  font-size: 22px;
+  font-family: var(--default-font-family);
+}
+
+.about-section p {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+
+.about-section-content {
+  margin: 30px;
+}
