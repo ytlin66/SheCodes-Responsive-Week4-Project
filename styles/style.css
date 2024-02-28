@@ -81,25 +81,36 @@ p {
     padding: 0;
     text-align: center;
   }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
 }
-.about-section {
+.content-container {
   padding: 110px 20px;
   text-align: center;
 }
-.about-section h1 {
-  font-size: 50px;
+
+.content-container h1 {
+  font-size: 46px;
+  line-height: 80px;
 }
 
-.about-section h2 {
-  font-size: 22px;
+.content-container h2 {
+  font-size: 18px;
   font-family: var(--default-font-family);
 }
+.content-container h3 {
+  font-size: 15px;
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
 
-.about-section p {
+.content-container p {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
 
-.about-section-content {
+.content {
   margin: 30px;
 }
