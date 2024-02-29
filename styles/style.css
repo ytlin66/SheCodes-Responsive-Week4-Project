@@ -22,6 +22,9 @@ h1 {
 h2 {
   font-size: 64px;
 }
+h4 {
+  font-size: 40px;
+}
 p {
   font-family: var(--default-font-family);
   font-weight: normal;
@@ -55,6 +58,7 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  margin: 20px 0;
 }
 .btn-branding-outline {
   color: var(--branding-color);
@@ -111,7 +115,6 @@ nav li {
   list-style: none;
   line-height: 80px;
   padding: 20px;
-  font-size: bold;
 }
 
 nav a {
@@ -126,6 +129,50 @@ nav a:hover {
 
 nav li.menu-item a {
   color: var(--branding-color);
+}
+footer {
+  margin: 80px 0;
+}
+footer .inquiry-box {
+  text-align: center;
+  background-color: var(--secondary-color);
+}
+footer .footer-email {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  display: block;
+  font-family: var(--heading-font-family);
+}
+footer .footer-email:hover {
+  color: var(--branding-color);
+}
+footer .social-links {
+  display: block;
+  text-align: center;
+  size: 20px;
+}
+footer .social-links a {
+  margin: 5px 10px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  padding: 5px 10px;
+  font-size: 25px;
+  border-radius: 50%;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--branding-color);
+}
+.inquiry-box {
+  background-color: var(--secondary-color);
+  padding: 30px 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+.inquiry-box p {
+  margin: 0;
 }
 @media (max-width: 900px) {
   h1 {
