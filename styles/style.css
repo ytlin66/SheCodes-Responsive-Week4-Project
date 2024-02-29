@@ -66,26 +66,7 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-@media (max-width: 900px) {
-  h1 {
-    font-size: 45px;
-    line-height: 1.5;
-  }
-  h2 {
-    font-size: 40px;
-  }
-  .hero {
-    padding: 60px 20px;
-  }
-  .project-description {
-    padding: 0;
-    text-align: center;
-  }
-  .content-container {
-    text-align: center;
-    padding: 0;
-  }
-}
+
 .content-container {
   padding: 110px 20px;
   text-align: center;
@@ -113,4 +94,59 @@ p {
 
 .content {
   margin: 30px;
+}
+.logo {
+  max-height: 50px;
+  margin: 20px;
+}
+nav {
+  padding: 30px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 80px;
+  padding: 20px;
+  font-size: bold;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover {
+  color: var(--branding-color);
+}
+
+nav li.menu-item a {
+  color: var(--branding-color);
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 45px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  .hero {
+    padding: 60px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+  nav a {
+    font-size: 14px;
+  }
 }
